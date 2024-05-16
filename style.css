@@ -2,20 +2,27 @@ body {
 font-family: Arial, sans-serif;
 font-size: 8rem;
 font-weight: bolder;
-/*height: 100%;*/
 margin: auto;
-background-color: #200a3f;
+background-color: var(--cordefundo);
 padding: 0 16px;
 }
+/*Cores do projeto*/
+:root {
+  --cordefundo: #200a3f;
+  --corcontainerdiv: #d838f4;
+}
+
 .center{
   display: inline-block;  
 }
+
+/*Conteudo principal*/
 div#container { 
   margin: auto;
-  max-width: 1000px;
+  max-width: 900px;
   user-select: none;/*desabilitar seleção de texto por completo..*/
-padding: 10vh 0;
-height: 80vh;
+  padding: 10vh 0;
+  height: 80vh;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -24,54 +31,52 @@ height: 80vh;
     "x4 x5 x6"
     "x7 x8 x9";
   grid-gap: 5px;
-  
   color: #fff;
 }
+
 div#container div {
 display: flex;
 align-items: center;
 justify-content: center;
-
 width: auto;
 height: auto;
-  background-color: #d838f4;
-  
-/*box-sizing: border-box;*/
+background-color: var(--corcontainerdiv);
+box-sizing: border-box;
 }
+
 div#container div.x1 {
   grid-area: x1;
 }
-div.x2 {
+
+div#container div.x2 {
   grid-area: x2;
 }
-div.x3 {
+
+div#container div.x3 {
   grid-area: x3;
 }
-div.x4 {
+
+div#container div.x4 {
   grid-area: x4;
 }
-div.x5 {
+
+div#container div.x5 {
   grid-area: x5;
 }
-div.x6 {
-/*background-image: url("./img/cr.jpg");
-background-position: center center;
-background-size: contain; cover 
-background-repeat: no-repeat;*/
 
-/*background-image: url("./img/cr.jpg");
-background image 
-background-position: center center;
-background-size: contain;
-background-repeat: no-repeat;*/
+div#container div.x6 {
+
   grid-area: x6;
 }
-div.x7 {
+
+div#container div.x7 {
   grid-area: x7;
 }
-div.x8 {
+
+div#container div.x8 {
   grid-area: x8;
 }
-div.x9 {
+
+div#container div.x9 {
   grid-area: x9;
 }

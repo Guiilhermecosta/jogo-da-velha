@@ -34,8 +34,6 @@ function two2() {
 var x3 = document.querySelector("div.x3");
 
 function three() {
-/*x3.style.background = "url(./img/img-1.png)";
-x3.style.background = "contain";*/
   console.log("clicado");
   x3.style.background = "blue";
   x3.innerHTML = "X";

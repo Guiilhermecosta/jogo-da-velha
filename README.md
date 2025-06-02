@@ -1,2 +1,2 @@
 # Jogo-da-Velha
- 2 Cliques rapidos = O, 1 clique = X
+## como jogar, clique  em uma das células para começar, o primeiro jogador fica com "X" e segundo com "O"

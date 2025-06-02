@@ -1,6 +1,6 @@
 @charset "UTF-8";
 *{
-    margin: 0px;
+    margin: 0px; padding: 0px; box-sizing: border-box;
 }
 :root {
     --cordefundo: #200a3f;

@@ -1,2 +1,2 @@
 # Jogo-da-Velha
-## como jogar, clique  em uma das células para começar, o primeiro jogador fica com "X" e segundo com "O"
+## como jogar "página web", clique  em uma das células para começar, o primeiro jogador fica com "X" e segundo com "O"
